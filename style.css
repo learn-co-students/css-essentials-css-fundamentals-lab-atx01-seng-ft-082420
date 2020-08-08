@@ -22,7 +22,7 @@ nav a {
   background-color: gray;
   padding: 0 10px;
 }
-/*In line 21 I have used a descendent selector*/
+/*In line 21, I have used a descendent selector*/
 
 figure figcaption {
   font-size: small;
@@ -33,11 +33,12 @@ figure ~ p {
       width: 800px;
       margin: 10px auto;
 }
-/*In line 30 I have used a General Sibling Selector*/
+/*In line 30, I have used a General Sibling Selector*/
+
 #details div {
   text-align: center;
   background-color: red;
   float: left;
   width: 25%;
 }
-
+/*In line 38, I have used an id selector*/
