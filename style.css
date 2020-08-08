@@ -3,3 +3,41 @@ body {
   height: 100%;
   margin: 0;
 }
+
+
+h1 {
+   text-align: center;
+}
+
+figure {
+   text-align: center;
+}
+
+nav {
+   text-align: center;
+   
+}
+
+nav a {
+  background-color: gray;
+  padding: 0 10px;
+}
+/*In line 21 I have used a descendent selector*/
+
+figure figcaption {
+  font-size: small;
+}
+
+figure ~ p {
+      text-align: center;
+      width: 800px;
+      margin: 10px auto;
+}
+/*In line 30 I have used a General Sibling Selector*/
+#details div {
+  text-align: center;
+  background-color: red;
+  float: left;
+  width: 25%;
+}
+
